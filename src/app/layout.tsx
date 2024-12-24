@@ -23,9 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl" className={vazirmatn.className}>
-      <HeaderComponent />
-      <main>{children}</main>
-      <FooterComponent />
+      <body>
+        <HeaderComponent />
+        <main>{children}</main>
+        <FooterComponent />
+      </body>
     </html>
   );
 }

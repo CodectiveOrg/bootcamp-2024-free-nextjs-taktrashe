@@ -1,4 +1,3 @@
-
 "use client";
 
 import { ReactElement } from "react";
@@ -14,7 +13,7 @@ export default function HeaderComponent(): ReactElement {
   const pathname = usePathname();
 
   return (
-    <header className={styles.header}> 
+    <header className={styles.header}>
       <nav>
         <ul>
           <li>
